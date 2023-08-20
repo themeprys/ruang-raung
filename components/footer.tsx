@@ -1,4 +1,5 @@
 import Container from './container'
+import Link from 'next/link';
 import { EXAMPLE_PATH } from '../lib/constants'
 
 export default function Footer() {
@@ -10,45 +11,45 @@ export default function Footer() {
             About Me..
           </h3>
           <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
-          <a
-              href="#"
+          <Link
+              href="/"
               className="mx-3 font-bold hover:underline"
             >
               Home
-            </a>
-          <a
-              href="#"
+            </Link>
+          <Link
+              href="/profile"
               className="mx-3 font-bold hover:underline"
             >
               Profile
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/resume"
               className="mx-3 font-bold hover:underline"
             >
               My Resume
-            </a>
+            </Link>
 
-            <a
-              href="#"
+            <Link
+              href="/contact"
               className="mx-3 font-bold hover:underline"
             >
               Contact Aris
-            </a>
+            </Link>
 
-            {/* <a
+            {/* <Link
               href="https://nextjs.org/docs/basic-features/pages"
               className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
             >
               About Me
-            </a>
-            <a
+            </Link>
+            <Link
               href="https://nextjs.org/docs/basic-features/pages"
               className="mx-3 bg-black hover:bg-white hover:text-black border border-black text-white font-bold py-3 px-12 lg:px-8 duration-200 transition-colors mb-6 lg:mb-0"
             >
               About Me
-            </a> */}
+            </Link> */}
           </div>
         </div>
       </Container>

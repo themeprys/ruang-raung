@@ -34,7 +34,7 @@ export default function Meta() {
       <link rel="alternate" type="application/rss+xml" href="/feed.xml" />
       <meta
         name="description"
-        content={`Aris Setyawan adalah eEtnomusikolog, musikus dan Co-founder Serunai.co.`}
+        content={`Aris Setyawan adalah etnomusikolog, musikus dan co-founder Serunai.co. Kini tinggal dan bekerja sebagai penulis di Yogyakarta`}
       />
       <meta property="og:image" content={HOME_OG_IMAGE_URL} />
     </Head>

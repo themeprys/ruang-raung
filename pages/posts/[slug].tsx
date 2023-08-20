@@ -35,7 +35,7 @@ export default function Post({ post, posts, preview }) {
             <article> 
               <Head>
                 <title>
-                  {`${post.title} | Next.js Blog Example with ${CMS_NAME}`}
+                  {`${post.title} | ${CMS_NAME}`}
                 </title>
                 <meta
                   property="og:image"
@@ -49,7 +49,7 @@ export default function Post({ post, posts, preview }) {
                 author={post.author}
                 categories={post.categories}
               />
-              <PostBody content={post.content} />
+              <PostBody content={post.content}/>
               <footer>
                 {post.tags.edges.length > 0 && <Tags tags={post.tags} />}
               </footer>
