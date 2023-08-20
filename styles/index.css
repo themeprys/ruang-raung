@@ -112,7 +112,7 @@
   line-height: 10px;
 }
 
-article {
+.container, article {
   word-wrap: break-word;
 }
 .aris_konten iframe { 
