@@ -9,7 +9,7 @@ export default function Index({ preview }) {
   return (
     <Layout preview={preview}>
       <Head>
-        <title>{`Aris Setawan Personal Blog - ${CMS_NAME}`}</title>
+        <title>{`Aris Setyawan Personal Blog - ${CMS_NAME}`}</title>
       </Head>
       <Container>
         <Intro />
