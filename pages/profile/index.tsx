@@ -16,6 +16,7 @@ export default function Index({ preview }) {
         <h2 className="mb-8 text-6xl md:text-7xl font-bold tracking-tighter leading-tight">
         Profile
       </h2>
+      <h2>Halaman dalam pengembangan</h2>
       </Container>
     </Layout>
   )
