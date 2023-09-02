@@ -1,4 +1,4 @@
-# Aris Setyawan Personal Blog
+# Aris Setyawan Personal Website
 
 Personal blog berisi profil dan tulisa Aris Setyawan
 

@@ -7,7 +7,7 @@ export default function Intro() {
       <div className="text-6xl md:text-5xl font-bold tracking-tighter leading-tight md:pr-8">
       <Link href="/" className='aris_logo'>        
         <h1>Ruang Raung</h1>
-        <p className='text-2xl'>Aris Setyawan Personal Blog</p>
+        <p className='text-2xl'>Aris Setyawan Personal Website</p>
         </Link>        
       </div>
       <div className="text-center md:text-left text-lg mt-5 md:pl-8">

@@ -105,7 +105,7 @@ export async function getAllPostsForWritings(preview) {
   const data = await fetchAPI(
     `
     query AllPostsWriting {
-      posts(first: 10000, filter: { category: { id: { notIn: [804,801,803] } }}, 
+      posts(first: 1000, filter: { category: { id: { notIn: [804,801,803] } }}, 
       where: { orderby: { field: DATE, order: DESC } }) {
         edges {
           node {
